@@ -1,0 +1,178 @@
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    background-color: rgb(212, 131, 33);
+    height: 70px;
+
+   
+}
+.logo{
+    float: left;
+   margin-left: 25px;
+   margin-top: 5px;
+}
+.about{
+    float: right;
+    margin:20px 100px 0px 0px;
+}
+
+.about ul li{
+    display: inline;
+    padding-left: 30px;
+}
+
+.about ul li a{
+    text-decoration: none;
+    font-size:20px;
+}
+.first{
+    background-image: url("../html/images/image1.jpg");
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+    align-items: center;
+    text-align: center;
+}
+.img h1{
+    font-size: 60px;
+}
+.img h2{
+    font-size: 50px;
+}
+
+.btn{
+    
+    padding-top: 30px;
+    font-size:20px;
+
+
+}
+.btn button{
+    height: 30px;
+    width: 150px;
+    font-size: 20px;
+    border-radius: 30px;
+    background-color: rgb(14, 222, 28);
+    border: 3px solid black;
+}
+.btn button:hover{
+    background-color: blue;
+}
+
+
+.main{
+    background-color: rgb(113, 65, 158);
+    height:200px;
+    text-align: center;
+    padding-top:50px;
+}
+.sec h2{
+    font-size: 40px;
+}
+.sec p{
+    font-size: 30px;
+}
+.service{
+    height: 430px;
+     text-align: center;
+     background-image: url("../html/images/image4.jpg");
+     background-size: 100% 100%;
+     position: relative;
+     z-index: 999;
+     color:#fff;
+
+}
+.service:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: #000000db;
+}
+
+.serv{
+    text-align: center;
+    /* margin-top: 25px; */
+
+}
+.serv h2{
+    font-size: 40px;
+}
+.serv p{
+    font-size: 20px;
+}
+.img_insert img{
+    height: 180px; 
+    width: 200px;
+    border: 3px solid black;
+   
+}
+.img_insert{
+   float: left;
+   width: 33%;
+   
+}
+.img_insert2 img{
+    height: 180px; 
+    width: 200px;
+    border: 3px solid black;
+}
+.img_insert2 {
+    float:left;
+    width: 33%;
+}
+
+.img_insert3 img{
+    height: 180px; 
+    width: 200px;
+    border: 3px solid black;
+}
+.img_insert3{
+    float:right;
+    width: 33%;
+}
+.adj{
+    margin-top:30px;
+}
+.foot{
+    height: 80px;
+    background-color: beige;
+    text-align: center;
+    padding-top: 30px;
+}
+.copy{
+    text-align: center;
+    /* margin-top: 20px; */
+}
+.pre ul li{
+    display: inline;
+    padding-left: 10px;
+}
+.pre{
+    margin-top: 10px;
+}
+.justify{
+    text-align: justify;
+    font-size: 14px;
+    margin: 10px;
+
+}
+.just{
+    text-align: justify;
+    font-size: 14px;
+    margin: 10px;
+}
+.para{
+    text-align: justify;
+    font-size: 14px;
+    margin: 10px;
+}
